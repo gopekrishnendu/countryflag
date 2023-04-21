@@ -1,0 +1,24 @@
+body{
+    background-color: #222;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.top-left{
+    position: absolute;
+    border-top: 40px solid #222;
+    border-right: 40px solid red;
+    border-bottom: 40px solid red;
+    border-left: 40px solid #222;
+    box-shadow:  3px 3px 3px rgba(0,0,0,0,.2);
+}

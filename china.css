@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(56, 54, 54);
+    display: grid;
+    place-items: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+h3 {
+    position: absolute;
+    text-align: align;
+    top: 20px;
+    color: white;
+}
+
+.china {
+    top: 50px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid green;
+}
+
+.flag {
+    background: red;
+}
+
+.china__star,
+.china__small_star {
+    position: absolute;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #fddd00;
+    clip-path: polygon( 50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.china__small_star {
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+}
+
+.china__small_star:nth-child(2) {
+    left: 82px;
+    top: 10px;
+    transform: rotate(30deg);
+}
+
+.china__small_star:nth-child(3) {
+    left: 100px;
+    top: 27px;
+    transform: rotate(45deg);
+}
+
+.china__small_star:nth-child(4) {
+    left: 102px;
+    top: 55px;
+}
+
+.china__small_star:nth-child(5) {
+    left: 82px;
+    top: 75px;
+    transform: rotate(30deg);
+}
